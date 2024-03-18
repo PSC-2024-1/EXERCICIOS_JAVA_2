@@ -3,7 +3,7 @@ EXERCÍCIOS BÁSICOS DE JAVA - SEQUENCIAL
 
 1. Crie um algoritmo que leia um valor de hora (HH:MM) e informe (calcule) quantos minutos se passaram desde o início do dia (00:00).
 2. Uma dúvida que sempre paira na cabeça dos motoristas é: Abastecer com etanol ou gasolina? Especialistas indicam que o consumo do carro aumenta em torno de trinta por cento, quando abastecido com etanol, logo, só vale a pena abastecer com ele se o valor estiver abaixo de setenta por cento do valor da gasolina. Para auxiliar motoristas a realizar este cálculo, crie um algoritmo que receba o preço dos dois combustíveis, e informe qual deve ser a escolha, com base no custo.
-3. Escreva um programa que calcule o teorema de Pitágoras, representado pela expressão: $c = \sqrt{aˆ2+bˆ2}$ 
+3. Escreva um programa que calcule o teorema de Pitágoras, representado pela expressão: $c = \sqrt{a^2+b^2}$ 
 4. Crie um programa para calcular a regra de três.
 5. Crie um programa que calcule a área, o perímetro e a diagonal de um retângulo. O resultado deve aparecer de maneira organizada e clara para a pessoa utilizadora.
 6. Faça um programa para uma loja de cerâmica que ajuda no cálculo da quantidade de revestimento necessário para uma obra. A pessoa utilizadora deve informar as medidas de largura e comprimento da área que será revestida e da cerâmica escolhida. Sempre arredonde o valor para cima, e acrescente dez por cento para o acabamento.
@@ -14,4 +14,4 @@ EXERCÍCIOS BÁSICOS DE JAVA - SEQUENCIAL
 11. Muitas pessoas têm dúvida sobre qual o gasto com energia de determinados equipamentos que possuem. Crie um algoritmo que receba a potência do equipamento em Watts, a quantidade de horas que ele fica ligado por dia, e o valor do KW/h. O cálculo é feito multiplicando a potência pela quantidade de horas, depois, dividindo por mil. Ao final, apresente a quantidade de KWh consumidos pelo equipamento e qual será o valor pago por eles.
 12. Pesquise o valor aproximado de dias por mês e ajuste o programa anterior para exibir o custo mensal em energia elétrica com o equipamento inserido.
 13. Escreva um programa que seja capaz de realizar a soma de duas frações, não é necessário simplificar. As entradas serão o numerador e, o denominador da primeira fração, seguidos do numerador e, o denominador da segunda fração. O resultado também deverá ser exibido em formato de fração. e.g: ⅗
-14. Escreva um algoritmo que recebe dois pontos no plano cartesiano, $P_1=(x_1,y_1)$ e $P_2=(x_2,y_2)$ e calcula a distância entre eles, dada por $d(P_1,P_2) = \sqrt{(x_1-x_2)ˆ2+(y_1-y_2)ˆ2}$ .
+14. Escreva um algoritmo que recebe dois pontos no plano cartesiano, $P_1=(x_1,y_1)$ e $P_2=(x_2,y_2)$ e calcula a distância entre eles, dada por $d(P_1,P_2) = \sqrt{(x_1-x_2)^2+(y_1-y_2)^2}$ .

@@ -33,6 +33,9 @@ public class Ex07 {
         System.out.print("Informe o comprimento da cerâmica (m): ");
         double comprimentoCeramica = scanner.nextDouble();
         
+        System.out.print("Informe o valor do metro quadrado da cerâmica (R$): ");
+        double valorMetroQuadrado = scanner.nextDouble();
+
         double areaTotal = larguraArea * comprimentoArea;
         double areaCeramica = larguraCeramica * comprimentoCeramica;
         
@@ -40,7 +43,11 @@ public class Ex07 {
         quantidadeNecessaria *= 1.1; // Acrescenta 10% para acabamento
         
         System.out.printf("Quantidade de cerâmicas necessárias: %.2f", quantidadeNecessaria);
-   
+        
+        double valorTotal = quantidadeNecessaria * (areaCeramica * valorMetroQuadrado);
+
+        System.out.printf("Valor total a ser pago: R$ %.2f\n", valorTotal);
+  
     }
     
 }
